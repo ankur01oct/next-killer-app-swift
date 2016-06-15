@@ -43,34 +43,24 @@ In this web based IBM Swift Sandbox - the code editor you might learn & try the 
 _Using the Deploy to Bluemix magic button_
 Clicking on the button below deploys this sample application to Bluemix. The `manifest.yml` file [included in the repo] is parsed to obtain the name of the application and configuration details. 
 
-_click - deploy on Bluemix (free of charge trail for 30 days of fun)_
+*click - deploy on Bluemix (free of charge trail for 30 days of fun)*
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
 
-Once deployment to Bluemix is completed, you should access the route assigned to your application using the web browser of your choice. You should see the Kitura welcome page!
-
-
-Note that the [Bluemix buildpack for Swift](https://github.com/IBM-Swift/swift-buildpack) is used for the deployment of BluePic to Bluemix. This buildpack is currently installed in the following Bluemix regions: US South, United Kingdom, and Sydney.
+Once deployment to Bluemix is completed, you should access the route assigned to your application using the web browser of your choice. You should see the Kitura welcome page! In addition you might want to do following things straight from your browser:
 - code straight in your browser,
 - and deploy to cloud and check logs from the browser.
 
-3. alternatively download IBM Kitura and setup up your Swift dev environment in your linux or xos (Macos)
+Note that the [Bluemix buildpack for Swift](https://github.com/IBM-Swift/swift-buildpack) is used for the deployment of BluePic to Bluemix. This buildpack is currently installed in the following Bluemix regions: US South, United Kingdom, and Sydney.
 
-4. further reading
-- `https://github.com/IBM-Swift/Kitura`
-- `https://github.com/IBM-Swift/Kitura-Starter-Bluemix`
-- my blog: `blumareks.blogspot.com`
+## Alternatively download IBM Kitura and setup up your Swift dev environment in your linux or xos (Macos)
+You can run Swift on Linux, or xos. It is very simple process. You download the release of the Swift, and add it to the environment. Follow the following steps:
 
-Follow me on Twitter: `@blumareks`
-
-## Summary
-Kitura-Starter-Bluemix is a [Kitura](https://github.com/IBM-Swift/Kitura) based server application that you can use as a starting point to get your own Kitura application up and running on Bluemix. After cloning this GitHub repo to your local system, you can deploy this application to Bluemix right away. If you'd also like to run Kitura-Starter-Bluemix locally, then see the instructions for installation on [OS X ](https://github.com/IBM-Swift/Kitura#installation-os-x) or installation on [Linux](https://github.com/IBM-Swift/Kitura#installation-linux-apt-based) for details on system level dependencies you may need before attempting to execute this app.
-
-## Swift version
+*downloading Swift*
 This version of Kitura-Starter-Bluemix works with the DEVELOPMENT-SNAPSHOT-2016-05-03-a version of the Swift binaries. You can download this version of the Swift binaries by following this [link](https://swift.org/download/). Compatibility with other Swift versions is not guaranteed.
 
-## Clone, build, and run
-1. Clone this repo using `git clone https://github.com/IBM-Swift/Kitura-Starter-Bluemix.git` and go to the root folder using `cd Kitura-Starter-Bluemix`. Please do not use the GitHub `Download ZIP` button as a way to clone this repo.
+*Clone, build, and run*
+1. Clone this repo using `git clone https://github.com/blumareks/next-killer-app-swift.git` and go to the root folder using `cd Kitura-Starter-Bluemix`. Please do not use the GitHub `Download ZIP` button as a way to clone this repo.
 
 2. Compile and execute the server app using: `make run`. Once the server starts, you should see the message _Listening on port 8090_. The executable file is located in the `.build/debug` directory: `./.build/debug/Kitura-Starter-Bluemix`.
 
@@ -78,9 +68,21 @@ This version of Kitura-Starter-Bluemix works with the DEVELOPMENT-SNAPSHOT-2016-
 
 4. Access static content using the following URL:[http://localhost:8090/static](http://localhost:8090/static).
 
-## Pushing the application to Bluemix
-### Using the Cloud Foundry command line
-You should have the Cloud Foundry command line installed on your system and you should be already logged on to Bluemix before you attempt the following steps.
+5. Access our example by getting this URL:[http://localhost:8090/HNL](http://localhost:8090/HNL)
+
+## Further reading
+- [https://github.com/IBM-Swift/Kitura](https://github.com/IBM-Swift/Kitura) - for our roadmap and some IBM Kitura tutorials.
+- [https://github.com/IBM-Swift/Kitura-Starter-Bluemix](https://github.com/IBM-Swift/Kitura-Starter-Bluemix) - this example page
+- my blog: [blumareks.blogspot.com](http://blumareks.blogspot.com)
+
+Follow me on Twitter: [@blumareks](https://twitter.com/blumareks)
+
+## Some more in detail reading
+Kitura-Starter-Bluemix is a [Kitura](https://github.com/IBM-Swift/Kitura) based server application that you can use as a starting point to get your own Kitura application up and running on Bluemix. After cloning this GitHub repo to your local system, you can deploy this application to Bluemix right away. If you'd also like to run Kitura-Starter-Bluemix locally, then see the instructions for installation on [OS X ](https://github.com/IBM-Swift/Kitura#installation-os-x) or installation on [Linux](https://github.com/IBM-Swift/Kitura#installation-linux-apt-based) for details on system level dependencies you may need before attempting to execute this app.
+
+## ALternatively manually pushing the application to Bluemix
+*Using the Cloud Foundry command line*
+You should have the Cloud Foundry & Bluemix command line installed on your system and you should be already logged on to Bluemix before you attempt the following steps.
 ```shell
 bluemix api https://api.ng.bluemix.net
 bluemix login -u your-email@examaple.com -o your-email@examaple.com -s dev
@@ -93,7 +95,7 @@ The command would use the `manifest.yml` to deploy the code and start the servic
 2. Once the application is pushed to and running on Bluemix, you can access your application route to see Kitura's welcome page on your browser.
 
 ## Kitura Wiki
-Feel free to visit our [Wiki](https://github.com/IBM-Swift/Kitura/wiki) for our roadmap and some tutorials.
+Feel free to visit our [Wiki](https://github.com/IBM-Swift/Kitura/wiki) 
 
 ## License
 The Kitura-Starter-Bluemix sample app is licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE.txt).
