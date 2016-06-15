@@ -5,8 +5,9 @@
 ![Apache 2](https://img.shields.io/badge/license-Apache2-blue.svg?style=flat)
 [![Join the chat at https://gitter.im/IBM-Swift/Kitura](https://badges.gitter.im/IBM-Swift/Kitura.svg)](https://gitter.im/IBM-Swift/Kitura?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**Server Side Swift example with IBM InstaTrip API based on Kitura**
-This example is based on the Bluemix starter application for Kitura web framework and HTTP server.
+**Server Side Swift example with InstaTrip API based on IBM Kitura**
+
+This example is based on the Bluemix starter application for IBM Kitura web framework and HTTP server.
 Below you would find:
 - the sample Swift server side code;
 - playing with Swift in the Swift Sandbox!
@@ -16,6 +17,7 @@ Below you would find:
 
 ##The Swift Server Side Sample
 The Swift sample code for IBM Kitura Web Server used in our example is based on the following API response with the JSON message:
+
 ```Swift
 import Kitura
 
@@ -31,10 +33,10 @@ router.get("/HNL") {
 Kitura.addHTTPServer(onPort: 8090, with: router)
 Kitura.run()
 ```
-It is elegant, isn't it? IBM Kitura web server philosophy is inspired by Express.js framework.
+It is elegant, isn't it? IBM Kitura web server philosophy is inspired by node.js' Express.js framework.
 
 ##Play with Swift in your web browser!
-Check the link `http://ibm.biz/SwiftSandbox`
+Check the link [](http://ibm.biz/SwiftSandbox) 
 In this web based IBM Swift Sandbox - the code editor you might learn & try the basic Swift constructs - and share them with your social network, if you feel like becoming known Swift coder.
 
 ##kitura sample in 5 minutes - IBM swift web server under 5 minutes
