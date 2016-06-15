@@ -1,1 +1,1 @@
-web: Server
+web: next-killer-app-swift

@@ -17,13 +17,16 @@
 import PackageDescription
 
 let package = Package(
-  name: "Next Killer App",
-  targets: [
-    Target(name: "Utils", dependencies: []),
-    Target(name: "Server", dependencies: [.Target(name: "Utils")])
-  ],
-  dependencies: [
-      .Package(url: "https://github.com/IBM-Swift/Swift-cfenv.git", majorVersion: 1, minor: 2),
+    name: "next-killer-app-swift",
+    targets: [
+        Target(
+            name: "next-killer-app-swift",
+            dependencies: []
+        )
     ],
-  testDependencies: []
-)
+    dependencies: [
+        .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 0, minor: 16),
+        .Package(url: "https://github.com/IBM-Swift/HeliumLogger.git", majorVersion: 0, minor: 8),
+        .Package(url: "https://github.com/IBM-Swift/Swift-cfenv", majorVersion: 1, minor: 2)
+    ],
+    exclude: ["Makefile", "Kitura-Build"])
