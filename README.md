@@ -36,18 +36,19 @@ Kitura.run()
 It is elegant, isn't it? IBM Kitura web server philosophy is inspired by node.js' Express.js framework.
 
 ##Play with Swift in your web browser!
-Check the link [](http://ibm.biz/SwiftSandbox) 
+Check the link [http://ibm.biz/SwiftSandbox](http://ibm.biz/SwiftSandbox) .
 In this web based IBM Swift Sandbox - the code editor you might learn & try the basic Swift constructs - and share them with your social network, if you feel like becoming known Swift coder.
 
-##kitura sample in 5 minutes - IBM swift web server under 5 minutes
-### Using the Deploy to Bluemix magic button
+## IBM Kitura sample - run Swift web server in the Bluemix cloud just under 5 minutes
+_Using the Deploy to Bluemix magic button_
 Clicking on the button below deploys this sample application to Bluemix. The `manifest.yml` file [included in the repo] is parsed to obtain the name of the application and configuration details. 
 
-*click - deploy on Bluemix (free of charge trail for 30 days of fun)*
+_click - deploy on Bluemix (free of charge trail for 30 days of fun)_
+
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
 
-
 Once deployment to Bluemix is completed, you should access the route assigned to your application using the web browser of your choice. You should see the Kitura welcome page!
+
 
 Note that the [Bluemix buildpack for Swift](https://github.com/IBM-Swift/swift-buildpack) is used for the deployment of BluePic to Bluemix. This buildpack is currently installed in the following Bluemix regions: US South, United Kingdom, and Sydney.
 - code straight in your browser,
