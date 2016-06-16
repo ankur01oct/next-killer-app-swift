@@ -16,7 +16,7 @@ Below you would find:
 - further reading, and my blog, of course.
 
 [![youtube from blumarek.blogspot.com](https://1.bp.blogspot.com/-u2XJZAW2hqU/V2MRaDaZ5pI/AAAAAAAAAso/ou44nbsT9ekis65S7menOg6q45wb-g2nwCLcB/s1600/Screenshot%2B2016-06-16%2B13.51.39.png)](https://youtu.be/Rok6545sqHs)
-Check the video on the explanations
+Check the video for the explanations
 
 ##The Swift Server Side Sample
 The Swift sample code for IBM Kitura Web Server used in our example is based on the following API response with the JSON message:
