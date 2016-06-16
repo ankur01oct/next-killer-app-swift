@@ -51,7 +51,7 @@ Once deployment to Bluemix is completed, you should access the route assigned to
 - code straight in your browser,
 - and deploy to cloud and check logs from the browser.
 
-Note that the [Bluemix buildpack for Swift](https://github.com/IBM-Swift/swift-buildpack) is used for the deployment of BluePic to Bluemix. This buildpack is currently installed in the following Bluemix regions: US South, United Kingdom, and Sydney.
+Note that the [Bluemix buildpack for Swift](https://github.com/IBM-Swift/swift-buildpack) is used for the deployment of next-killer-app-swift to Bluemix. This buildpack is currently installed in the following Bluemix regions: US South, United Kingdom, and Sydney.
 
 ## Alternatively download IBM Kitura and setup up your Swift dev environment in your linux or xos (Macos)
 You can run Swift on Linux, or xos. It is very simple process. You download the release of the Swift, and add it to the environment. Follow the following steps:
@@ -60,9 +60,9 @@ You can run Swift on Linux, or xos. It is very simple process. You download the 
 This version of Kitura-Starter-Bluemix works with the DEVELOPMENT-SNAPSHOT-2016-05-03-a version of the Swift binaries. You can download this version of the Swift binaries by following this [link](https://swift.org/download/). Compatibility with other Swift versions is not guaranteed.
 
 *Clone, build, and run*
-1. Clone this repo using `git clone https://github.com/blumareks/next-killer-app-swift.git` and go to the root folder using `cd Kitura-Starter-Bluemix`. Please do not use the GitHub `Download ZIP` button as a way to clone this repo.
+1. Clone this repo using `git clone https://github.com/blumareks/next-killer-app-swift.git` and go to the root folder using `cd next-killer-app-swift`. Please do not use the GitHub `Download ZIP` button as a way to clone this repo.
 
-2. Compile and execute the server app using: `make run`. Once the server starts, you should see the message _Listening on port 8090_. The executable file is located in the `.build/debug` directory: `./.build/debug/Kitura-Starter-Bluemix`.
+2. Compile and execute the server app using: `make run`. Once the server starts, you should see the message _Listening on port 8090_. The executable file is located in the `.build/debug` directory: `./.build/debug/next-killer-app-swift`.
 
 3. Open your browser at [http://localhost:8090](http://localhost:8090).
 
@@ -72,7 +72,7 @@ This version of Kitura-Starter-Bluemix works with the DEVELOPMENT-SNAPSHOT-2016-
 
 ## Further reading
 - [https://github.com/IBM-Swift/Kitura](https://github.com/IBM-Swift/Kitura) - for our roadmap and some IBM Kitura tutorials.
-- [https://github.com/IBM-Swift/Kitura-Starter-Bluemix](https://github.com/IBM-Swift/Kitura-Starter-Bluemix) - this example page
+- [https://github.com/IBM-Swift/Kitura-Starter-Bluemix](https://github.com/IBM-Swift/Kitura-Starter-Bluemix) - the original Kitura example page
 - my blog: [blumareks.blogspot.com](http://blumareks.blogspot.com)
 
 Follow me on Twitter: [@blumareks](https://twitter.com/blumareks)
