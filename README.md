@@ -16,6 +16,7 @@ Below you would find:
 - further reading, and my blog, of course.
 
 [![youtube from blumarek.blogspot.com](https://pbs.twimg.com/media/ClK8AFDUoAEuRVN.jpg:large)](https://youtu.be/Rok6545sqHs)
+
 Check the video for the explanations
 
 ##The Swift Server Side Sample
