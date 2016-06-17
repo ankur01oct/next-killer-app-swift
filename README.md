@@ -15,7 +15,7 @@ Below you would find:
 - you might edit the code, redeploy, and check the logs direct from your browser;
 - further reading, and my blog, of course.
 
-[![youtube from blumarek.blogspot.com](https://1.bp.blogspot.com/-u2XJZAW2hqU/V2MRaDaZ5pI/AAAAAAAAAso/ou44nbsT9ekis65S7menOg6q45wb-g2nwCLcB/s1600/Screenshot%2B2016-06-16%2B13.51.39.png)](https://youtu.be/Rok6545sqHs)
+[![youtube from blumarek.blogspot.com](https://pbs.twimg.com/media/ClK8AFDUoAEuRVN.jpg:large)](https://youtu.be/Rok6545sqHs)
 Check the video for the explanations
 
 ##The Swift Server Side Sample
