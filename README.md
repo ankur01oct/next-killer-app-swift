@@ -75,6 +75,7 @@ This version of Kitura-Starter-Bluemix works with the DEVELOPMENT-SNAPSHOT-2016-
 5. Access our example by getting this URL:[http://localhost:8090/HNL](http://localhost:8090/HNL)
 
 ## Further reading
+- [another DeveloperWorks Swift Kitura sample](https://developer.ibm.com/swift/2016/02/22/building-end-end-cloud-apps-using-swift-kitura/)
 - [https://github.com/IBM-Swift/Kitura](https://github.com/IBM-Swift/Kitura) - for our roadmap and some IBM Kitura tutorials.
 - [https://github.com/IBM-Swift/Kitura-Starter-Bluemix](https://github.com/IBM-Swift/Kitura-Starter-Bluemix) - the original Kitura example page
 - my blog: [blumareks.blogspot.com](http://blumareks.blogspot.com)
